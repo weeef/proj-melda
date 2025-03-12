@@ -1,0 +1,17 @@
+- View:
+    style:
+      backgroundColor: 
+      position: absolute
+      left: 130
+      top: 200
+      width: 50
+      height: 50
+    children:
+      - Image:
+          source: melda2.png
+          style:
+            position: 
+            left: {left_index}
+            top: {top_index}
+            width: 100
+            height: 100 

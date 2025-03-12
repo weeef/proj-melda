@@ -1,0 +1,39 @@
+- View: 
+    style:
+      backgroundColor:
+      position: absolute
+    children: 
+      - Image: 
+          source: floor.png
+          style:
+            position: absolute
+            left: 360 
+            top: 0
+            width: 600 
+            height: 600
+- View:
+    style:
+      backgroundColor: 
+      position: absolute
+    children:
+      - Image:
+          source: meldabattlescreen.png
+          style:
+            position: absolute
+            left: 600
+            top: 500
+            width: 50
+            height: 50
+- View:
+    style:
+      backgroundColor: 
+      position: absolute
+    children:
+      - Image:
+          source: boss.png
+          style:
+            position: absolute
+            left: 600
+            top: 0
+            width: 50
+            height: 50

@@ -1,0 +1,13 @@
+- View:
+    style:
+      backgroundColor: 
+      position: absolute
+    children:
+      - Image:
+          source: three.png
+          style:
+            position: absolute
+            left: {left_index}
+            top: {top_index}
+            width: 600
+            height: 600

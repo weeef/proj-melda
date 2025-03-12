@@ -1,0 +1,25 @@
+- View:
+    style:
+      backgroundColor: 
+      position: absolute
+    children:
+      - Image:
+          source: startscreen.png
+          style:
+            position: absolute
+            left: 360
+            top: 0
+            width: 600
+            height: 600
+- Button:
+    style:
+      width: 100
+      height: 50
+      position: absolute
+      left: 615
+      top: 500
+      borderRadius: 3
+      backgroundColor: blue
+      id: f
+    on_touch:
+      backgroundColor: grey

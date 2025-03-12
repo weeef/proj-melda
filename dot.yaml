@@ -1,0 +1,10 @@
+- Button:
+    style:
+      width: 50
+      height: 50
+      borderRadius: 300
+      backgroundColor: red
+      position: absolute
+      left: 130
+      top: 150
+

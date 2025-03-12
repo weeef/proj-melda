@@ -1,0 +1,95 @@
+- View:
+    style:
+      backgroundColor: 
+      position: absolute
+      left: 130
+      top: 200
+      width: 50
+      height: 50
+    children:
+      - Image:
+          source: mob1.png
+          style:
+            position: 
+            left: 150
+            top: 50
+            width: 100
+            height: 100 
+- View:
+    style:
+      backgroundColor: 
+      position: absolute
+    children:
+      - Image:
+          source: floor.png
+          style:
+            position: absolute
+            left: 360
+            top: 0
+            width: 600
+            height: 600
+- Button:
+    style:
+      width: 25
+      height: 25
+      position: absolute
+      left: 65
+      top: 330
+      borderRadius: 0
+      backgroundColor: rgb(204,112,0)
+    on_touch:
+      backgroundColor: dark orange
+- Button:
+    style:
+      width: 25
+      height: 25
+      position: absolute
+      left: 65
+      top: 390
+      transparency: 20%
+      borderRadius: 0
+      backgroundColor: rgb(204,112,0)
+    on_touch:
+      backgroundColor: grey
+- Button:
+    style:
+      width: 25
+      height: 25
+      position: absolute
+      left: 35
+      top: 360
+      borderRadius: 0
+      backgroundColor:  rgb(204,112,0)
+    on_touch:
+      backgroundColor: grey
+- Button:
+    style:
+      width: 25
+      height: 25
+      position: absolute
+      left: 95
+      top: 360
+      borderRadius: 0
+      backgroundColor: rgb(204,112,0)
+    on_touch:
+      backgroundColor: grey
+- Button:
+    style:
+      width: 25
+      height: 25
+      borderRadius: 300
+      backgroundColor: rgb(211,211,211)
+      position: absolute
+      left: 65
+      top: 360
+- Button:
+    style:
+      width: 50
+      height: 50
+      borderRadius: 300
+      backgroundColor:  rgb(204,112,0)
+      position: absolute
+      left: 210
+      top: 340
+    on_touch:
+      backgroundColor: grey
